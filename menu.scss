@@ -1,6 +1,17 @@
 .menu{
 
-    &.is-light{
+  &.is-extra-small{
+    .menu-list{
+      li{
+        a{
+          font-size: 0.9rem;
+          padding: 0.2em 0.75em;
+        }
+      }
+    }
+  }
+
+  &.is-light{
 
         $primary: map-get($colors, 'primary');
 
