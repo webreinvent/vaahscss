@@ -1,0 +1,33 @@
+
+.draggable{
+
+    .drag{
+        cursor: move;
+        cursor: -webkit-grab;
+        cursor: -moz-grab;
+        &:hover {
+
+        }
+
+        &:active {
+            cursor: move  !important;
+            cursor: -webkit-grabbing;
+            cursor: -moz-grabbing;
+        }
+        &:disabled
+        {
+            cursor: move  !important;
+            cursor: -webkit-grabbing;
+            cursor: -moz-grabbing;
+        }
+        input[disabled]{
+            cursor: move !important;
+            cursor: -webkit-grabbing;
+            cursor: -moz-grabbing;
+        }
+    }
+
+
+
+
+}
