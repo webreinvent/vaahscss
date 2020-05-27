@@ -49,6 +49,22 @@
     }
 
 
+    .dropzone-nested{
+
+        border: dashed $grey-light;
+        border-width: 1px 0px 0px 1px;
+        margin: 5px 5px 5px 0px;
+        padding: 5px 5px 25px 15px;
+
+
+        li:not(:last-child){
+
+            margin-bottom: 12px;
+
+        }
+
+
+    }
 
 
 }
