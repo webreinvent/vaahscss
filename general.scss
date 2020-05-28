@@ -13,6 +13,9 @@ hr{
     cursor: pointer;
 }
 
+.hide{
+    display: none;
+}
 
 $width: map-get($screens, 'widescreen');
 @media (min-width: $width) {
