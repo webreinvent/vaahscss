@@ -17,12 +17,7 @@ hr{
     display: none;
 }
 
-$width: map-get($screens, 'widescreen');
-@media (min-width: $width) {
-    .container{
-        max-width: 100%;
-    }
-}
+
 $width: map-get($screens, 'tablet');
 @media (max-width: $width) {
     .container-backend{
