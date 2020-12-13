@@ -38,9 +38,13 @@
         position: relative;
         .control{
             line-height: 0;
-            position: absolute;
-            .help{
 
+            .help{
+                &.counter{
+                    position: absolute;
+                    right:0;
+                    bottom:-6px;
+                }
             }
         }
     }
