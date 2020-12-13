@@ -32,6 +32,19 @@
             }
         }
     }
+
+
+    &.has-addons{
+        position: relative;
+        .control{
+            line-height: 0;
+            position: absolute;
+            .help{
+
+            }
+        }
+    }
+
 }
 
 
